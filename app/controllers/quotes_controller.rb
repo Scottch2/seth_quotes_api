@@ -13,6 +13,11 @@ class QuotesController < ApplicationController
     render json: @quote
   end
 
+  def get_random
+    @quote = Quote.order("RAND()").first
+    render json: @quote
+  end
+
   # POST /quotes
   def create
     @quote = Quote.new(quote_params)
