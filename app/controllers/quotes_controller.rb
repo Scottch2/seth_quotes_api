@@ -13,6 +13,11 @@ class QuotesController < ApplicationController
     render json: @quote
   end
 
+  def get_random
+    @quote = Quote.order("RAND()").first
+    render json: @quote
+  end
+
   # POST /quotes
   def create
     @quote = Quote.new(quote_params)
@@ -46,6 +51,6 @@ class QuotesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def quote_params
-      params.require(:quote).permit(:text)
+      params.require(:quote).permit(:text, :user_id)
     end
 end

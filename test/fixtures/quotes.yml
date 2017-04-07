@@ -1,7 +1,29 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  text: MyString
+steve1:
+  text: "You will be paying for software for the rest of your life"
+  user: steve
 
-two:
-  text: MyString
+mike:
+  text: "That will take 2 weeks to build"
+  user: mike
+
+jong1:
+  text: "Koreans hate waiting"
+  user: jong
+
+bruce1:
+  text: "That's incredible."
+  user: bruce
+
+seth1:
+  text: "Because what I do is not easy and it's really expensive"
+  user: seth
+
+scott1:
+  text: "hyuna"
+  user: scott1
+
+scott2:
+  text: "Why would you ever not have a situation where you wouldn't not need that?"
+  user: scott2
