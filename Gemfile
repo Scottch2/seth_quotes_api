@@ -26,7 +26,7 @@ gem 'puma', '~> 3.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
-gem 'carrierwave', '~> 1.0'
+# gem 'carrierwave', '~> 1.0'
 gem 'fog-aws'
 gem 'rails_12factor', group: :production
 
